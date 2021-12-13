@@ -20,8 +20,8 @@ html {
 }
 
 .holder{
-    height: 40;
-    width: 100;
+    height: 20;
+    width: 50;
 
 }
 
@@ -29,18 +29,41 @@ html {
     background: rgba(59, 74, 107, .4);
 }
 
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+
+}
+.title{
+
+}
 
 /*  Basic Styling To Override Default For Basic HTML Elements */
 label{
     display:block;
     font-size: 27px;
     height: 50px;
-    width: 100;
+    width: 50;
 }
 
 input{
-    height: 50px;
-    width: 100px;
+    display:block;
+    height: 40px;
+    width: 200px;
     background:#22b2da;
     color: #f0d43a;
     font-size: 20px;
@@ -49,7 +72,7 @@ input{
 }
 
 button{
-    width: 100px;
+    width: 400px;
     height: 100px;
     background: #3b4a6b;
     color: #f0d43a;
@@ -63,15 +86,13 @@ h1{
 }
 
 textarea{
-    background:#22b2da;
-    color: #f0d43a;
+    background:#22292b;
+    color: #ccb128;
     font-size: 20px;
-    font-family: 'Oswald', sans-serif;
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,
 select:focus,
-textarea:focus,
 button:focus {
     outline: none;
 }

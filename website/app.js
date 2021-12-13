@@ -24,7 +24,7 @@ const myFeelings=document.getElementById('feelings').value;
     .then(function(data){
         console.log(data); 
         // add data to post request
-        postData('/add',{date: newDate, temp: data.main.temp, content: myFeelings});
+        postData('/add',{date: newDate, temp: data.main.temp,content: myFeelings});
         
        
     });
