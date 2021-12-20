@@ -1,1 +1,26 @@
-{}
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "weather-journal-app",
+  "description": "## Overview This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamed-Nabawi/weather-gournal-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohamed-Nabawi/weather-gournal-app/issues"
+  },
+  "homepage": "https://github.com/Mohamed-Nabawi/weather-gournal-app#readme"
+}
